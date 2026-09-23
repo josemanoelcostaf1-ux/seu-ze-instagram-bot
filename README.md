@@ -14,6 +14,10 @@ rodando de graça no GitHub Actions. Mesmo padrão do projeto irmão `eletropost
   na aba **Actions** do repositório, botão "Run workflow").
 - `state.json` — controla o que já foi publicado, pra nunca postar duas vezes; é atualizado
   pelo próprio workflow a cada execução.
+- `refresh_token.py` — renova o token de acesso do Instagram antes que ele expire e salva o
+  novo valor direto no secret `IG_ACCESS_TOKEN`, sem precisar mexer em nada manualmente.
+- `.github/workflows/refresh-token.yml` — roda `refresh_token.py` toda segunda-feira, bem
+  dentro da validade de ~60 dias do token.
 
 ## O que você precisa preparar (uma vez só)
 
@@ -50,6 +54,27 @@ Até você cadastrar os dois secrets, o workflow fica pulando a execução silen
 (sem erro, sem e-mail) — ele só começa a valer quando `IG_USER_ID` e `IG_ACCESS_TOKEN`
 existirem.
 
+## Renovar o token automaticamente (recomendado)
+
+O token de acesso do Instagram expira a cada ~60 dias. Para nunca mais precisar gerar um
+novo na mão, crie mais um secret que dá ao próprio robô permissão de atualizar os secrets
+do repositório:
+
+1. No GitHub, vá em **Settings (da sua conta, não do repo) → Developer settings →
+   Personal access tokens → Fine-grained tokens → Generate new token**.
+2. Dê um nome (ex.: `seu-ze-instagram-bot secrets`), expiração de 1 ano (ou "sem expiração"
+   se preferir depois lembrar de renovar isso também).
+3. Em **Repository access**, escolha "Only select repositories" e selecione
+   `seu-ze-instagram-bot`.
+4. Em **Permissions → Repository permissions**, procure **Secrets** e mude para
+   **Read and write**.
+5. Gere o token, copie o valor (só aparece uma vez) e cadastre como o secret **`GH_PAT`**
+   (Settings → Secrets and variables → Actions → New repository secret).
+
+Pronto — toda segunda-feira o robô renova o token sozinho, sem nunca mais precisar voltar
+ao Meta for Developers (a menos que ele detecte algum erro, aí ele avisa por e-mail de
+falha do GitHub Actions).
+
 ## Testar antes de deixar automático
 
 ```bash
@@ -76,6 +101,9 @@ chegar, edite a `date` de um post para o passado e rode de novo.
 - A Instagram Graph API exige que a imagem esteja num link público — por isso as imagens
   ficam neste repositório e são servidas por `raw.githubusercontent.com`. O repositório
   precisa continuar público para isso funcionar.
-- O token de acesso expira (~60 dias); quando expirar, é só gerar um novo e atualizar o
-  secret `IG_ACCESS_TOKEN`.
+- O token de acesso expira (~60 dias); com o `GH_PAT` configurado (seção acima), isso é
+  renovado sozinho — sem ele, é só gerar um novo token no Meta for Developers e atualizar
+  o secret `IG_ACCESS_TOKEN` manualmente.
+- A renovação automática só funciona se o token atual ainda não tiver expirado e tiver
+  pelo menos 24 horas — por isso ela roda semanalmente, bem dentro da janela de 60 dias.
 - Publicação em Stories via API funciona só com imagem (sem sticker interativo, sem música).
