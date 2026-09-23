@@ -46,6 +46,10 @@ No repositório do GitHub, em **Settings → Secrets and variables → Actions**
 
 Pronto — a partir daí o workflow roda sozinho, todo dia, sem precisar mexer em nada.
 
+Até você cadastrar os dois secrets, o workflow fica pulando a execução silenciosamente
+(sem erro, sem e-mail) — ele só começa a valer quando `IG_USER_ID` e `IG_ACCESS_TOKEN`
+existirem.
+
 ## Testar antes de deixar automático
 
 ```bash

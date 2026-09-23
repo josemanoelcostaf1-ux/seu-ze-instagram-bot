@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    # Pula a execução (sem erro, sem e-mail) enquanto os secrets do Meta não existirem.
+    if: ${{ secrets.IG_USER_ID != '' && secrets.IG_ACCESS_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
 
