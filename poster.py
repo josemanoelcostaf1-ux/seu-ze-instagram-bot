@@ -24,8 +24,8 @@ CALENDAR_PATH = HERE / "calendar.json"
 STATE_PATH = HERE / "state.json"
 GRAPH = "https://graph.facebook.com/v21.0"
 
-IG_USER_ID = os.environ["IG_USER_ID"]
-ACCESS_TOKEN = os.environ["IG_ACCESS_TOKEN"]
+IG_USER_ID = os.environ.get("IG_USER_ID", "")
+ACCESS_TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
 
 
 def load_json(path, default):
@@ -66,6 +66,10 @@ def publish_container(container_id):
 
 
 def main():
+    if not IG_USER_ID or not ACCESS_TOKEN:
+        print("IG_USER_ID/IG_ACCESS_TOKEN ainda não configurados nos secrets — nada a fazer.")
+        return
+
     calendar = load_json(CALENDAR_PATH, [])
     state = load_json(STATE_PATH, {})
     now = datetime.datetime.now(datetime.timezone.utc)
