@@ -42,16 +42,33 @@ def image_url(rel_path):
     return f"{REPO_RAW_BASE}/{rel_path}"
 
 
-def create_container(image_path, caption="", is_story=False):
+def create_container(image_path, caption="", is_story=False, is_carousel_item=False):
     url = f"{GRAPH}/{IG_USER_ID}/media"
     payload = {"image_url": image_url(image_path), "access_token": ACCESS_TOKEN}
     if is_story:
         payload["media_type"] = "STORIES"
+    elif is_carousel_item:
+        payload["is_carousel_item"] = "true"  # itens do carrossel não levam legenda própria
     else:
         payload["caption"] = caption
     r = requests.post(url, data=payload, timeout=30)
     if not r.ok:
         raise RuntimeError(f"Erro ao criar container ({r.status_code}): {r.text}")
+    return r.json()["id"]
+
+
+def create_carousel_container(children_ids, caption=""):
+    """Cria o container "pai" de um carrossel a partir dos containers filhos já criados."""
+    url = f"{GRAPH}/{IG_USER_ID}/media"
+    payload = {
+        "media_type": "CAROUSEL",
+        "children": ",".join(children_ids),
+        "caption": caption,
+        "access_token": ACCESS_TOKEN,
+    }
+    r = requests.post(url, data=payload, timeout=30)
+    if not r.ok:
+        raise RuntimeError(f"Erro ao criar carrossel ({r.status_code}): {r.text}")
     return r.json()["id"]
 
 
@@ -87,7 +104,14 @@ def main():
 
         if not entry.get("feed_posted"):
             try:
-                cid = create_container(post["feed_image"], caption=post["feed_caption"])
+                if post.get("feed_images"):  # carrossel: várias imagens em um post só
+                    children = []
+                    for img in post["feed_images"]:
+                        children.append(create_container(img, is_carousel_item=True))
+                        time.sleep(3)
+                    cid = create_carousel_container(children, caption=post["feed_caption"])
+                else:
+                    cid = create_container(post["feed_image"], caption=post["feed_caption"])
                 time.sleep(8)  # dá tempo do Meta processar a imagem antes de publicar
                 res = publish_container(cid)
                 entry["feed_posted"] = True

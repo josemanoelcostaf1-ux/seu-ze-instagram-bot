@@ -56,13 +56,46 @@ function weekdays(startISO, n) {
   }
   return out;
 }
-const dates = weekdays("2026-09-28", 30);
+const dates = weekdays("2026-09-24", 30);
+
+const CAROUSEL_CAPTION = `Chegou o Seu Zé! 🛍️
+
+Um mini mercado 100% autônomo, dentro do seu condomínio, funcionando 24 horas por dia — sem fila, com autoatendimento e pagamento por Pix, cartão ou app.
+
+Já estamos em Fortaleza e seguimos expandindo para toda a Região Metropolitana. 📍
+
+Arrasta pro lado e conhece a ideia completa 👉
+
+Precisou? Tem no Seu Zé.
+
+#SeuZé #Fortaleza #RegiãoMetropolitana #MercadoDoCondomínio #Autoatendimento`;
 
 const calendar = posts.map((p, i) => {
   const d = dates[i];
   d.setUTCHours(14, 0, 0, 0); // 11h Fortaleza (UTC-3)
+  const id = `post-${String(p.n).padStart(2, "0")}`;
+
+  // Post 1 vira o carrossel de apresentação do Seu Zé (ideia do negócio + área de atuação).
+  if (p.n === 1) {
+    return {
+      id,
+      date: d.toISOString(),
+      category: "carrossel-institucional",
+      feed_images: [
+        "images/feed/carousel_intro/slide_01.png",
+        "images/feed/carousel_intro/slide_02.png",
+        "images/feed/carousel_intro/slide_03.png",
+        "images/feed/carousel_intro/slide_04.png",
+        "images/feed/carousel_intro/slide_05.png",
+        "images/feed/carousel_intro/slide_06.png",
+      ],
+      feed_caption: CAROUSEL_CAPTION,
+      story_image: `images/story/${p.cat}.png`,
+    };
+  }
+
   return {
-    id: `post-${String(p.n).padStart(2, "0")}`,
+    id,
     date: d.toISOString(),
     category: p.cat,
     feed_image: `images/feed/${p.cat}.png`,

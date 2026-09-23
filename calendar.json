@@ -1,15 +1,22 @@
 [
   {
     "id": "post-01",
-    "date": "2026-09-28T14:00:00.000Z",
-    "category": "inst",
-    "feed_image": "images/feed/inst.png",
-    "feed_caption": "Chegou o Seu Zé! 🛍️ Um mercado de verdade dentro do seu condomínio, para resolver o dia a dia sem sair de casa. Precisou? Tem no Seu Zé. 🧡\n\n#SeuZé #MercadoDoCondomínio #Praticidade",
+    "date": "2026-09-24T14:00:00.000Z",
+    "category": "carrossel-institucional",
+    "feed_images": [
+      "images/feed/carousel_intro/slide_01.png",
+      "images/feed/carousel_intro/slide_02.png",
+      "images/feed/carousel_intro/slide_03.png",
+      "images/feed/carousel_intro/slide_04.png",
+      "images/feed/carousel_intro/slide_05.png",
+      "images/feed/carousel_intro/slide_06.png"
+    ],
+    "feed_caption": "Chegou o Seu Zé! 🛍️\n\nUm mini mercado 100% autônomo, dentro do seu condomínio, funcionando 24 horas por dia — sem fila, com autoatendimento e pagamento por Pix, cartão ou app.\n\nJá estamos em Fortaleza e seguimos expandindo para toda a Região Metropolitana. 📍\n\nArrasta pro lado e conhece a ideia completa 👉\n\nPrecisou? Tem no Seu Zé.\n\n#SeuZé #Fortaleza #RegiãoMetropolitana #MercadoDoCondomínio #Autoatendimento",
     "story_image": "images/story/inst.png"
   },
   {
     "id": "post-02",
-    "date": "2026-09-29T14:00:00.000Z",
+    "date": "2026-09-25T14:00:00.000Z",
     "category": "h24",
     "feed_image": "images/feed/h24.png",
     "feed_caption": "2h da manhã e bateu aquela fome? Relaxa, o Seu Zé nunca fecha. Aberto 24 horas, todos os dias. 🌙🛒\n\n#SeuZé #Aberto24Horas",
@@ -17,7 +24,7 @@
   },
   {
     "id": "post-03",
-    "date": "2026-09-30T14:00:00.000Z",
+    "date": "2026-09-26T14:00:00.000Z",
     "category": "fila",
     "feed_image": "images/feed/fila.png",
     "feed_caption": "Pix, cartão por aproximação ou pelo app: no Seu Zé você entra, pega o que precisa e sai rapidinho. Sem fila, sem perder tempo. ⚡\n\n#SeuZé #SemFila",
@@ -25,7 +32,7 @@
   },
   {
     "id": "post-04",
-    "date": "2026-10-01T14:00:00.000Z",
+    "date": "2026-09-28T14:00:00.000Z",
     "category": "dia",
     "feed_image": "images/feed/dia.png",
     "feed_caption": "Faltou um ingrediente no meio da receita? Relaxa. O Seu Zé resolve em 2 minutos, sem sair do condomínio. 🍳\n\n#SeuZé #DiaADia",
@@ -33,7 +40,7 @@
   },
   {
     "id": "post-05",
-    "date": "2026-10-02T14:00:00.000Z",
+    "date": "2026-09-29T14:00:00.000Z",
     "category": "com",
     "feed_image": "images/feed/com.png",
     "feed_caption": "Sem sair do prédio para resolver o essencial: o Seu Zé é parte do seu condomínio, feito pra quem mora aqui. 🏢\n\n#SeuZé #Comunidade",
@@ -41,7 +48,7 @@
   },
   {
     "id": "post-06",
-    "date": "2026-10-03T14:00:00.000Z",
+    "date": "2026-09-30T14:00:00.000Z",
     "category": "sabia",
     "feed_image": "images/feed/sabia.png",
     "feed_caption": "O Seu Zé repõe as prateleiras 2 vezes por semana. Ou seja: sempre tem novidade por aqui! 📦\n\n#SeuZé #VocêSabia",
@@ -49,7 +56,7 @@
   },
   {
     "id": "post-07",
-    "date": "2026-10-05T14:00:00.000Z",
+    "date": "2026-10-01T14:00:00.000Z",
     "category": "inst",
     "feed_image": "images/feed/inst.png",
     "feed_caption": "Não é só um mercado. É o seu mercado, sempre por aqui, aberto quando você precisa. 🛒\n\n#SeuZé #SempreporAqui",
@@ -57,7 +64,7 @@
   },
   {
     "id": "post-08",
-    "date": "2026-10-06T14:00:00.000Z",
+    "date": "2026-10-02T14:00:00.000Z",
     "category": "h24",
     "feed_image": "images/feed/h24.png",
     "feed_caption": "Feriado, domingo, de madrugada... não importa o dia, o Seu Zé está sempre de portas abertas pra você. ⏰\n\n#SeuZé #Aberto24Horas",
@@ -65,7 +72,7 @@
   },
   {
     "id": "post-09",
-    "date": "2026-10-07T14:00:00.000Z",
+    "date": "2026-10-03T14:00:00.000Z",
     "category": "fila",
     "feed_image": "images/feed/fila.png",
     "feed_caption": "Chega de perder tempo em fila de supermercado. No Seu Zé, o autoatendimento resolve em segundos. ⏱️\n\n#SeuZé #Autoatendimento",
@@ -73,7 +80,7 @@
   },
   {
     "id": "post-10",
-    "date": "2026-10-08T14:00:00.000Z",
+    "date": "2026-10-05T14:00:00.000Z",
     "category": "dia",
     "feed_image": "images/feed/dia.png",
     "feed_caption": "Visita chegou sem avisar e a geladeira tá vazia? Corre até o Seu Zé, que a gente te ajuda a salvar o dia. 🙌\n\n#SeuZé #DiaADia",
@@ -81,7 +88,7 @@
   },
   {
     "id": "post-11",
-    "date": "2026-10-09T14:00:00.000Z",
+    "date": "2026-10-06T14:00:00.000Z",
     "category": "com",
     "feed_image": "images/feed/com.png",
     "feed_caption": "Não tem mais perto que isso: o Seu Zé fica a poucos passos da sua porta, todos os dias. 🚶\n\n#SeuZé #PertoDeCasa",
@@ -89,7 +96,7 @@
   },
   {
     "id": "post-12",
-    "date": "2026-10-10T14:00:00.000Z",
+    "date": "2026-10-07T14:00:00.000Z",
     "category": "sabia",
     "feed_image": "images/feed/sabia.png",
     "feed_caption": "No Seu Zé você pode pagar por Pix, cartão por aproximação ou pelo aplicativo. Você escolhe o jeito mais fácil. 📲\n\n#SeuZé #VocêSabia",
@@ -97,7 +104,7 @@
   },
   {
     "id": "post-13",
-    "date": "2026-10-12T14:00:00.000Z",
+    "date": "2026-10-08T14:00:00.000Z",
     "category": "inst",
     "feed_image": "images/feed/inst.png",
     "feed_caption": "Pensado para quem mora aqui: produtos do dia a dia, preço justo e a poucos passos da sua porta. Esse é o Seu Zé. 🏠\n\n#SeuZé #MercadoDoCondomínio",
@@ -105,7 +112,7 @@
   },
   {
     "id": "post-14",
-    "date": "2026-10-13T14:00:00.000Z",
+    "date": "2026-10-09T14:00:00.000Z",
     "category": "h24",
     "feed_image": "images/feed/h24.png",
     "feed_caption": "Café da manhã cedo demais ou lanche tarde da noite: pode contar com o Seu Zé, 24 horas por dia, todos os dias. ☕🌃\n\n#SeuZé #Aberto24h",
@@ -113,7 +120,7 @@
   },
   {
     "id": "post-15",
-    "date": "2026-10-14T14:00:00.000Z",
+    "date": "2026-10-10T14:00:00.000Z",
     "category": "fila",
     "feed_image": "images/feed/fila.png",
     "feed_caption": "Sabe aquele minuto que faz diferença? No Seu Zé, você economiza tempo em cada compra. 🕐\n\n#SeuZé #Praticidade",
@@ -121,7 +128,7 @@
   },
   {
     "id": "post-16",
-    "date": "2026-10-15T14:00:00.000Z",
+    "date": "2026-10-12T14:00:00.000Z",
     "category": "dia",
     "feed_image": "images/feed/dia.png",
     "feed_caption": "Aquele desejo de chocolate às 15h existe, sim. E o Seu Zé está logo ali para resolver. 🍫\n\n#SeuZé #DiaADia",
@@ -129,7 +136,7 @@
   },
   {
     "id": "post-17",
-    "date": "2026-10-16T14:00:00.000Z",
+    "date": "2026-10-13T14:00:00.000Z",
     "category": "com",
     "feed_image": "images/feed/com.png",
     "feed_caption": "O Seu Zé conhece a rotina do seu condomínio e está aqui pra facilitar o seu dia. 🏠\n\n#SeuZé #Comunidade",
@@ -137,7 +144,7 @@
   },
   {
     "id": "post-18",
-    "date": "2026-10-17T14:00:00.000Z",
+    "date": "2026-10-14T14:00:00.000Z",
     "category": "sabia",
     "feed_image": "images/feed/sabia.png",
     "feed_caption": "O Seu Zé funciona 24 horas por dia, 7 dias por semana. Sim, até no Natal! 🎄\n\n#SeuZé #VocêSabia",
@@ -145,7 +152,7 @@
   },
   {
     "id": "post-19",
-    "date": "2026-10-19T14:00:00.000Z",
+    "date": "2026-10-15T14:00:00.000Z",
     "category": "inst",
     "feed_image": "images/feed/inst.png",
     "feed_caption": "Pequeno no tamanho, gigante na praticidade. O Seu Zé cabe na rotina de qualquer morador. 💪\n\n#SeuZé #Conveniência",
@@ -153,7 +160,7 @@
   },
   {
     "id": "post-20",
-    "date": "2026-10-20T14:00:00.000Z",
+    "date": "2026-10-16T14:00:00.000Z",
     "category": "h24",
     "feed_image": "images/feed/h24.png",
     "feed_caption": "Seja 7h ou 23h, o Seu Zé está pronto pra te atender. Sem hora marcada, sem desculpa. ⏱️\n\n#SeuZé #Aberto24Horas",
@@ -161,7 +168,7 @@
   },
   {
     "id": "post-21",
-    "date": "2026-10-21T14:00:00.000Z",
+    "date": "2026-10-17T14:00:00.000Z",
     "category": "fila",
     "feed_image": "images/feed/fila.png",
     "feed_caption": "Pix, aproximação ou app: escolha como pagar e pronto. Simples, rápido e sem complicação. 📲\n\n#SeuZé #PagamentoFácil",
@@ -169,7 +176,7 @@
   },
   {
     "id": "post-22",
-    "date": "2026-10-22T14:00:00.000Z",
+    "date": "2026-10-19T14:00:00.000Z",
     "category": "dia",
     "feed_image": "images/feed/dia.png",
     "feed_caption": "Home office também tem fome. Sem sair do prédio, o Seu Zé garante o seu lanche da tarde. 💻🥪\n\n#SeuZé #HomeOffice",
@@ -177,7 +184,7 @@
   },
   {
     "id": "post-23",
-    "date": "2026-10-23T14:00:00.000Z",
+    "date": "2026-10-20T14:00:00.000Z",
     "category": "com",
     "feed_image": "images/feed/com.png",
     "feed_caption": "Ter um mercado dentro de casa (quase!) é ter mais praticidade no seu dia. O Seu Zé faz parte disso. ✨\n\n#SeuZé #Condomínio",
@@ -185,7 +192,7 @@
   },
   {
     "id": "post-24",
-    "date": "2026-10-24T14:00:00.000Z",
+    "date": "2026-10-21T14:00:00.000Z",
     "category": "sabia",
     "feed_image": "images/feed/sabia.png",
     "feed_caption": "O acesso ao Seu Zé é só de moradores, com cadastro facial. Segurança em primeiro lugar. 🔒\n\n#SeuZé #VocêSabia",
@@ -193,7 +200,7 @@
   },
   {
     "id": "post-25",
-    "date": "2026-10-26T14:00:00.000Z",
+    "date": "2026-10-22T14:00:00.000Z",
     "category": "inst",
     "feed_image": "images/feed/inst.png",
     "feed_caption": "De segunda a domingo, o Seu Zé já faz parte do dia a dia de quem mora aqui. E o seu, já conhece? 🛍️\n\n#SeuZé #RotinaFacilitada",
@@ -201,7 +208,7 @@
   },
   {
     "id": "post-26",
-    "date": "2026-10-27T14:00:00.000Z",
+    "date": "2026-10-23T14:00:00.000Z",
     "category": "h24",
     "feed_image": "images/feed/h24.png",
     "feed_caption": "Pense no Seu Zé como aquele plantão que nunca falha: sempre aberto, sempre por perto. 🛎️\n\n#SeuZé #Aberto24h",
@@ -209,7 +216,7 @@
   },
   {
     "id": "post-27",
-    "date": "2026-10-28T14:00:00.000Z",
+    "date": "2026-10-24T14:00:00.000Z",
     "category": "fila",
     "feed_image": "images/feed/fila.png",
     "feed_caption": "A gente sabe que ninguém gosta de esperar. Por isso o Seu Zé foi pensado pra ser rápido do início ao fim. 🚀\n\n#SeuZé #SemFila",
@@ -217,7 +224,7 @@
   },
   {
     "id": "post-28",
-    "date": "2026-10-29T14:00:00.000Z",
+    "date": "2026-10-26T14:00:00.000Z",
     "category": "dia",
     "feed_image": "images/feed/dia.png",
     "feed_caption": "Churrasco de última hora ou aquele lanche de sábado: o Seu Zé tem o que falta pra completar o fim de semana. 🍻\n\n#SeuZé #FimDeSemana",
@@ -225,7 +232,7 @@
   },
   {
     "id": "post-29",
-    "date": "2026-10-30T14:00:00.000Z",
+    "date": "2026-10-27T14:00:00.000Z",
     "category": "com",
     "feed_image": "images/feed/com.png",
     "feed_caption": "O Seu Zé está aberto pra todo mundo do condomínio, todos os dias, o ano inteiro. 🎉\n\n#SeuZé #Comunidade",
@@ -233,7 +240,7 @@
   },
   {
     "id": "post-30",
-    "date": "2026-10-31T14:00:00.000Z",
+    "date": "2026-10-28T14:00:00.000Z",
     "category": "sabia",
     "feed_image": "images/feed/sabia.png",
     "feed_caption": "O Seu Zé leva, em média, só 3 meses entre a assinatura do contrato e a inauguração no condomínio. Rapidinho! 🚀\n\n#SeuZé #VocêSabia",
