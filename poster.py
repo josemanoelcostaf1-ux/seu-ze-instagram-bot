@@ -22,7 +22,7 @@ REPO_RAW_BASE = f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
 HERE = pathlib.Path(__file__).parent
 CALENDAR_PATH = HERE / "calendar.json"
 STATE_PATH = HERE / "state.json"
-GRAPH = "https://graph.facebook.com/v21.0"
+GRAPH = "https://graph.instagram.com/v21.0"
 
 IG_USER_ID = os.environ.get("IG_USER_ID", "")
 ACCESS_TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
