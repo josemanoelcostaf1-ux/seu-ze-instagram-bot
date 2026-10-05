@@ -1,0 +1,33 @@
+name: Publicar posts do Instagram
+
+on:
+  schedule:
+    - cron: "0 * * * *" # confere a cada hora se algum post do calendar.json venceu
+  workflow_dispatch: {} # permite rodar manualmente pela aba Actions
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - run: python poster.py
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+
+      - name: Salvar estado das publicações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git diff --cached --quiet || git commit -m "Atualiza estado das publicações"
+          git push
