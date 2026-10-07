@@ -87,7 +87,14 @@
     "story_media_id": "18199011649401494",
     "story_posted_at": "2026-10-06T15:34:09.647864+00:00"
   },
-  "post-12": {},
+  "post-12": {
+    "feed_posted": true,
+    "feed_media_id": "18208446538367312",
+    "feed_posted_at": "2026-10-07T14:04:16.101777+00:00",
+    "story_posted": true,
+    "story_media_id": "17905992753579691",
+    "story_posted_at": "2026-10-07T14:04:16.101777+00:00"
+  },
   "post-13": {},
   "post-14": {},
   "post-15": {},
