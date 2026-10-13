@@ -159,103 +159,103 @@
   {
     "id": "post-19",
     "date": "2026-10-15T14:00:00.000Z",
-    "category": "eletroposto-carrossel-mitos",
-    "feed_caption": "Mito ou verdade: conveniência no eletroposto dá trabalho? 🤔\n\nDesmontamos os 3 mitos que mais travam donos de eletroposto: equipe, estoque e horário. Spoiler: com o Seu Zé, nenhum deles é problema.\n\nArrasta pro lado 👉\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e19_story.png",
+    "category": "mix-carrossel-solucoes",
+    "feed_caption": "Um mesmo Seu Zé, três lugares onde ele faz toda a diferença. 🛒\n\n🏢 Condomínios: o mercado do seu condomínio, aberto 24h\n⚡ Eletropostos: conveniência completa enquanto o carro carrega\n💼 Empresas: o intervalo do time sem sair do local\n\nMini market autônomo, sem equipe e sem dor de cabeça pra você. Arrasta pro lado 👉\n\nQuer um Seu Zé no seu espaço? Chama no direct.\n\n#SeuZé #MiniMarket #Condomínio #Eletroposto #Empresas",
+    "story_image": "images/story/mix/m19_story.png",
     "feed_images": [
-      "images/feed/eletroposto/e19_1.png",
-      "images/feed/eletroposto/e19_2.png",
-      "images/feed/eletroposto/e19_3.png",
-      "images/feed/eletroposto/e19_4.png",
-      "images/feed/eletroposto/e19_5.png"
+      "images/feed/mix/m19_1.png",
+      "images/feed/mix/m19_2.png",
+      "images/feed/mix/m19_3.png",
+      "images/feed/mix/m19_4.png",
+      "images/feed/mix/m19_5.png"
     ]
   },
   {
     "id": "post-20",
     "date": "2026-10-16T14:00:00.000Z",
-    "category": "eletroposto-pagamento",
-    "feed_caption": "Pix, cartão por aproximação ou app: o cliente paga sozinho, na hora, sem fila. 💳📲\n\nNo Seu Zé não tem caixa pra operar — e nem ninguém precisa ficar esperando.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e20_story.png",
-    "feed_image": "images/feed/eletroposto/e20_1.png"
+    "category": "mix-condominio",
+    "feed_caption": "O mercado do seu condomínio, aberto 24h. 🏢🛒\n\nÁgua gelada, lanche, congelados e o que faltou pro jantar — o morador desce, escolhe, paga e volta pra casa. Sem pegar o carro e sem fila.\n\nMais que um mercado, sempre por aqui. 🧡\n\n#SeuZé #MiniMarket #Condomínio #VidaEmCondomínio",
+    "story_image": "images/story/mix/m20_story.png",
+    "feed_image": "images/feed/mix/m20_1.png"
   },
   {
     "id": "post-21",
     "date": "2026-10-17T14:00:00.000Z",
-    "category": "eletroposto-b2b",
-    "feed_caption": "Seu ponto de recarga merece uma conveniência à altura. 🛒⚡\n\nSeu Zé: operação autônoma, 24h por dia — e já funcionando em pontos de recarga reais. Vamos conversar? Chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e21_story.png",
-    "feed_image": "images/feed/eletroposto/e21_1.png"
+    "category": "mix-empresa",
+    "feed_caption": "O intervalo do time sem sair da empresa. ☕🥤\n\nO Seu Zé leva um mini market autônomo 24h para o seu espaço: a equipe encontra água gelada, café e lanche rápido sem perder tempo no trânsito.\n\nMais conveniência para quem trabalha, zero trabalho para a empresa.\n\n#SeuZé #MiniMarket #Empresas #Conveniência24h",
+    "story_image": "images/story/mix/m21_story.png",
+    "feed_image": "images/feed/mix/m21_1.png"
   },
   {
     "id": "post-22",
     "date": "2026-10-19T14:00:00.000Z",
-    "category": "eletroposto-diferencial",
-    "feed_caption": "Quando o motorista pode escolher onde recarregar, ele escolhe o ponto que tem mais a oferecer. ✨\n\nUma conveniência 24h, autônoma, é um diferencial que o cliente percebe — e que não dá trabalho pra você.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e22_story.png",
-    "feed_image": "images/feed/eletroposto/e22_1.png"
+    "category": "mix-eletroposto-pagamento",
+    "feed_caption": "Pix, cartão por aproximação ou app: o motorista paga sozinho, na hora, sem fila. 💳📲\n\nNo ponto de recarga com Seu Zé não tem caixa pra operar — e nem ninguém precisa ficar esperando enquanto o carro carrega.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
+    "story_image": "images/story/mix/m22_story.png",
+    "feed_image": "images/feed/mix/m22_1.png"
   },
   {
     "id": "post-23",
     "date": "2026-10-20T14:00:00.000Z",
-    "category": "eletroposto-reposicao",
-    "feed_caption": "Prateleira sempre abastecida, sem você mexer um dedo. 📦\n\nO Seu Zé repõe as mercadorias 2 vezes por semana. Você cuida do seu eletroposto, a gente cuida do resto.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e23_story.png",
-    "feed_image": "images/feed/eletroposto/e23_1.png"
+    "category": "mix-condominio-checklist",
+    "feed_caption": "Tudo que o morador procura, no térreo do prédio. 🧊🍫\n\nBebidas geladas, snacks, congelados e essenciais do dia a dia — 24h por dia e com segurança.\n\nPrecisou? Tem no Seu Zé. 🧡\n\n#SeuZé #MiniMarket #Condomínio #VidaEmCondomínio",
+    "story_image": "images/story/mix/m23_story.png",
+    "feed_image": "images/feed/mix/m23_1.png"
   },
   {
     "id": "post-24",
     "date": "2026-10-21T14:00:00.000Z",
-    "category": "eletroposto-operacao-real",
-    "feed_caption": "Não é teoria: já funciona. ✅\n\nEm pontos de recarga reais, o Seu Zé atende o motorista 24h por dia, de forma autônoma e com reposição por conta da gente.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e24_story.png",
-    "feed_image": "images/feed/eletroposto/e24_1.png"
+    "category": "mix-empresa-mito",
+    "feed_caption": "Mito: ter um mini market na empresa dá trabalho. 🙅\nVerdade: com o Seu Zé a operação é 100% autônoma. Sem equipe, sem estoque e sem rotina pra você — a reposição é com a gente, 2 vezes por semana.\n\nPraticidade para a empresa, conveniência para o time.\n\n#SeuZé #MiniMarket #Empresas #Conveniência24h",
+    "story_image": "images/story/mix/m24_story.png",
+    "feed_image": "images/feed/mix/m24_1.png"
   },
   {
     "id": "post-25",
     "date": "2026-10-22T14:00:00.000Z",
-    "category": "eletroposto-como-funciona",
-    "feed_caption": "Ter um Seu Zé no seu eletroposto é simples: 🧩\n\n1️⃣ Conversa rápida\n2️⃣ Instalação\n3️⃣ Operação autônoma, 24h\n4️⃣ Reposição 2x por semana\n\nQuer saber como funciona no seu ponto? Chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e25_story.png",
-    "feed_image": "images/feed/eletroposto/e25_1.png"
+    "category": "mix-como-funciona",
+    "feed_caption": "Ter um Seu Zé no seu condomínio, eletroposto ou empresa é simples: 🧩\n\n1️⃣ Conversa rápida\n2️⃣ Instalação (contêiner de 20 pés)\n3️⃣ Operação autônoma, 24h\n4️⃣ Reposição 2x por semana\n\nQuer saber como funciona no seu espaço? Chama no direct.\n\n#SeuZé #MiniMarket #Condomínio #Eletroposto #Empresas",
+    "story_image": "images/story/mix/m25_story.png",
+    "feed_image": "images/feed/mix/m25_1.png"
   },
   {
     "id": "post-26",
     "date": "2026-10-23T14:00:00.000Z",
-    "category": "eletroposto-espaco",
-    "feed_caption": "Um contêiner de 20 pés, uma conveniência completa. 📦🛒\n\nPensado para caber em estacionamentos, shoppings e pontos de recarga, sem obra complicada e sem dor de cabeça.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e26_story.png",
-    "feed_image": "images/feed/eletroposto/e26_1.png"
+    "category": "mix-eletroposto-operacao-real",
+    "feed_caption": "Não é teoria: já funciona. ✅\n\nEm pontos de recarga reais, o Seu Zé atende o motorista 24h por dia, de forma autônoma e com reposição por conta da gente.\n\nTem um eletroposto? Chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
+    "story_image": "images/story/mix/m26_story.png",
+    "feed_image": "images/feed/mix/m26_1.png"
   },
   {
     "id": "post-27",
     "date": "2026-10-24T14:00:00.000Z",
-    "category": "eletroposto-sem-fila",
-    "feed_caption": "Sem fila. Sem caixa. Sem espera. ⚡\n\nO cliente carrega, escolhe e paga sozinho — e o seu ponto de recarga ganha uma experiência completa 24h por dia.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e27_story.png",
-    "feed_image": "images/feed/eletroposto/e27_1.png"
+    "category": "mix-condominio-assinatura",
+    "feed_caption": "Precisou? Tem no Seu Zé. 🧡\n\nMais que um mercado, sempre por aqui: o mini market do seu condomínio, aberto 24h, para o que você precisar a qualquer hora.\n\n#SeuZé #MiniMarket #Condomínio #VidaEmCondomínio",
+    "story_image": "images/story/mix/m27_story.png",
+    "feed_image": "images/feed/mix/m27_1.png"
   },
   {
     "id": "post-28",
     "date": "2026-10-26T14:00:00.000Z",
-    "category": "eletroposto-assinatura",
-    "feed_caption": "Precisou? Tem no Seu Zé. 🧡\n\nA frase que o motorista leva na cabeça — e que faz o seu ponto de recarga ser lembrado.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e28_story.png",
-    "feed_image": "images/feed/eletroposto/e28_1.png"
+    "category": "mix-empresa-turnos",
+    "feed_caption": "Quem trabalha de noite também precisa de conveniência. 🌙\n\nEm fábricas, centros logísticos e empresas com turnos, o Seu Zé fica aberto 24h: o time encontra água, lanche e café a qualquer hora, sem sair do local.\n\n#SeuZé #MiniMarket #Empresas #Conveniência24h",
+    "story_image": "images/story/mix/m28_story.png",
+    "feed_image": "images/feed/mix/m28_1.png"
   },
   {
     "id": "post-29",
     "date": "2026-10-27T14:00:00.000Z",
-    "category": "eletroposto-b2b",
-    "feed_caption": "Seu cliente carrega no seu ponto. O Seu Zé cuida do resto. 🛒⚡\n\nConveniência autônoma 24h, sem equipe e sem dor de cabeça — e já funcionando em pontos de recarga reais. Vamos conversar? Chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e29_story.png",
-    "feed_image": "images/feed/eletroposto/e29_1.png"
+    "category": "mix-b2b",
+    "feed_caption": "Tem gente no seu espaço? Tem Seu Zé. 🛒\n\nCondomínios, eletropostos e empresas: a conveniência 24h que funciona sozinha, sem equipe e sem dor de cabeça pra você.\n\nVamos levar o Seu Zé para o seu espaço? Chama no direct.\n\n#SeuZé #MiniMarket #Condomínio #Eletroposto #Empresas",
+    "story_image": "images/story/mix/m29_story.png",
+    "feed_image": "images/feed/mix/m29_1.png"
   },
   {
     "id": "post-30",
     "date": "2026-10-28T14:00:00.000Z",
-    "category": "eletroposto-fechamento",
-    "feed_caption": "Eletroposto + Seu Zé = conveniência 24h sem dor de cabeça. 🧡\n\nObrigado por acompanhar essa primeira rodada. Se você tem um ponto de recarga e quer uma conveniência que atende seu cliente a qualquer hora, chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e30_story.png",
-    "feed_image": "images/feed/eletroposto/e30_1.png"
+    "category": "mix-fechamento",
+    "feed_caption": "Onde tem gente, tem Seu Zé. 🧡\n\nCondomínios, eletropostos e empresas: um mini market autônomo, 24h e sem dor de cabeça.\n\nObrigado por acompanhar essa primeira rodada. Quer um Seu Zé no seu espaço? Chama no direct.\n\n#SeuZé #MiniMarket #Condomínio #Eletroposto #Empresas",
+    "story_image": "images/story/mix/m30_story.png",
+    "feed_image": "images/feed/mix/m30_1.png"
   }
 ]
