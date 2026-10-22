@@ -221,41 +221,103 @@
   {
     "id": "post-26",
     "date": "2026-10-23T14:00:00.000Z",
-    "category": "eletroposto-espaco",
-    "feed_caption": "Um contêiner de 20 pés, uma conveniência completa. 📦🛒\n\nPensado para caber em estacionamentos, shoppings e pontos de recarga, sem obra complicada e sem dor de cabeça.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e26_story.png",
-    "feed_image": "images/feed/eletroposto/e26_1.png"
+    "category": "mix-operacao-real",
+    "feed_caption": "Não é teoria: já funciona. ✅\n\nEm pontos de recarga reais, o Seu Zé atende o motorista 24h por dia, de forma autônoma e com reposição por conta da gente.\n\nTem um eletroposto? Chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
+    "story_image": "images/story/mix/m26_story.png",
+    "feed_image": "images/feed/mix/m26_1.png"
   },
   {
     "id": "post-27",
     "date": "2026-10-24T14:00:00.000Z",
-    "category": "eletroposto-sem-fila",
-    "feed_caption": "Sem fila. Sem caixa. Sem espera. ⚡\n\nO cliente carrega, escolhe e paga sozinho — e o seu ponto de recarga ganha uma experiência completa 24h por dia.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e27_story.png",
-    "feed_image": "images/feed/eletroposto/e27_1.png"
+    "category": "mix-assinatura",
+    "feed_caption": "Precisou? Tem no Seu Zé. 🧡\n\nMais que um mercado, sempre por aqui: o mini market do seu condomínio, aberto 24h, para o que você precisar a qualquer hora.\n\n#SeuZé #MiniMarket #Condomínio #VidaEmCondomínio",
+    "story_image": "images/story/mix/m27_story.png",
+    "feed_image": "images/feed/mix/m27_1.png"
   },
   {
     "id": "post-28",
     "date": "2026-10-26T14:00:00.000Z",
-    "category": "eletroposto-assinatura",
-    "feed_caption": "Precisou? Tem no Seu Zé. 🧡\n\nA frase que o motorista leva na cabeça — e que faz o seu ponto de recarga ser lembrado.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e28_story.png",
-    "feed_image": "images/feed/eletroposto/e28_1.png"
+    "category": "mix-turnos",
+    "feed_caption": "Quem trabalha de noite também precisa de conveniência. 🌙\n\nEm fábricas, centros logísticos e empresas com turnos, o Seu Zé fica aberto 24h: o time encontra água, lanche e café a qualquer hora, sem sair do local.\n\n#SeuZé #MiniMarket #Empresas #Conveniência24h",
+    "story_image": "images/story/mix/m28_story.png",
+    "feed_image": "images/feed/mix/m28_1.png"
   },
   {
     "id": "post-29",
     "date": "2026-10-27T14:00:00.000Z",
-    "category": "eletroposto-b2b",
-    "feed_caption": "Seu cliente carrega no seu ponto. O Seu Zé cuida do resto. 🛒⚡\n\nConveniência autônoma 24h, sem equipe e sem dor de cabeça — e já funcionando em pontos de recarga reais. Vamos conversar? Chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e29_story.png",
-    "feed_image": "images/feed/eletroposto/e29_1.png"
+    "category": "mix-como-funciona",
+    "feed_caption": "Ter um Seu Zé no seu condomínio, eletroposto ou empresa é simples: 🧩\n\n1️⃣ Conversa rápida\n2️⃣ Instalação (contêiner de 20 pés)\n3️⃣ Operação autônoma, 24h\n4️⃣ Reposição 2x por semana\n\nQuer saber como funciona no seu espaço? Chama no direct.\n\n#SeuZé #MiniMarket #Condomínio #Eletroposto #Empresas",
+    "story_image": "images/story/mix/m29_story.png",
+    "feed_image": "images/feed/mix/m29_1.png"
   },
   {
     "id": "post-30",
     "date": "2026-10-28T14:00:00.000Z",
-    "category": "eletroposto-fechamento",
-    "feed_caption": "Eletroposto + Seu Zé = conveniência 24h sem dor de cabeça. 🧡\n\nObrigado por acompanhar essa primeira rodada. Se você tem um ponto de recarga e quer uma conveniência que atende seu cliente a qualquer hora, chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
-    "story_image": "images/story/eletroposto/e30_story.png",
-    "feed_image": "images/feed/eletroposto/e30_1.png"
+    "category": "mix-espaco",
+    "feed_caption": "Seu ponto de recarga não é grande? Sem problema. 📦⚡\n\nO Seu Zé funciona em um contêiner de 20 pés: conveniência completa 24h para o motorista, sem equipe e sem dor de cabeça pra você.\n\nQuer ver se cabe no seu ponto? Chama no direct.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
+    "story_image": "images/story/mix/m30_story.png",
+    "feed_image": "images/feed/mix/m30_1.png"
+  },
+  {
+    "id": "post-31",
+    "date": "2026-10-29T14:00:00.000Z",
+    "category": "mix-carrossel-condominio",
+    "feed_caption": "O que o seu condomínio ganha com um Seu Zé? 🏢🧡\n\n💰 Aluguel mensal pelo espaço cedido\n🛠️ Implantação 100% por conta do Seu Zé\n🔒 Segurança 24h e acesso só para moradores, com cadastro facial\n🛒 Mini market autônomo, aberto 24h, a poucos passos de casa\n\nArrasta pro lado 👉 e fale com a gente para levar o Seu Zé para o seu condomínio.\n\n#SeuZé #MiniMarket #Condomínio #VidaEmCondomínio",
+    "story_image": "images/story/mix/m31_story.png",
+    "feed_images": [
+      "images/feed/mix/m31_1.png",
+      "images/feed/mix/m31_2.png",
+      "images/feed/mix/m31_3.png",
+      "images/feed/mix/m31_4.png",
+      "images/feed/mix/m31_5.png"
+    ]
+  },
+  {
+    "id": "post-32",
+    "date": "2026-10-30T14:00:00.000Z",
+    "category": "mix-checklist",
+    "feed_caption": "O intervalo do time sem sair da empresa. ☕🥤\n\nÁgua gelada, café, lanche rápido e o que faltou no dia a dia — 24h por dia, com pagamento sem fila.\n\nPrecisou? Tem no Seu Zé. 🧡\n\n#SeuZé #MiniMarket #Empresas #Conveniência24h",
+    "story_image": "images/story/mix/m32_story.png",
+    "feed_image": "images/feed/mix/m32_1.png"
+  },
+  {
+    "id": "post-33",
+    "date": "2026-10-31T14:00:00.000Z",
+    "category": "mix-reposicao",
+    "feed_caption": "Prateleira sempre abastecida, sem você mexer um dedo. 📦\n\nO Seu Zé repõe as mercadorias 2 vezes por semana. Você cuida do seu eletroposto, a gente cuida do resto.\n\n#SeuZé #Eletroposto #MobilidadeElétrica #PontoDeRecarga",
+    "story_image": "images/story/mix/m33_story.png",
+    "feed_image": "images/feed/mix/m33_1.png"
+  },
+  {
+    "id": "post-34",
+    "date": "2026-11-02T14:00:00.000Z",
+    "category": "mix-mito-sindico",
+    "feed_caption": "Mito: mini market no condomínio dá trabalho pro síndico. 🙅\nVerdade: o Seu Zé escolhe os produtos, repõe o estoque, cuida da manutenção e do atendimento. O condomínio cede o espaço e apoia a segurança do local.\n\nTodo mundo ganha, ninguém fica sobrecarregado.\n\n#SeuZé #MiniMarket #Condomínio #VidaEmCondomínio",
+    "story_image": "images/story/mix/m34_story.png",
+    "feed_image": "images/feed/mix/m34_1.png"
+  },
+  {
+    "id": "post-35",
+    "date": "2026-11-03T14:00:00.000Z",
+    "category": "mix-empresas-b2b",
+    "feed_caption": "Escritório, fábrica ou galpão: tem lugar para um Seu Zé. 💼🛒\n\nMini market autônomo, aberto 24h, para o seu time encontrar o que precisa sem sair do local — e sem trabalho para a empresa.\n\nVamos conversar? Chama no direct.\n\n#SeuZé #MiniMarket #Empresas #Conveniência24h",
+    "story_image": "images/story/mix/m35_story.png",
+    "feed_image": "images/feed/mix/m35_1.png"
+  },
+  {
+    "id": "post-36",
+    "date": "2026-11-04T14:00:00.000Z",
+    "category": "mix-b2b",
+    "feed_caption": "Tem gente no seu espaço? Tem Seu Zé. 🛒\n\nCondomínios, eletropostos e empresas: a conveniência 24h que funciona sozinha, sem equipe e sem dor de cabeça pra você.\n\nVamos levar o Seu Zé para o seu espaço? Chama no direct.\n\n#SeuZé #MiniMarket #Condomínio #Eletroposto #Empresas",
+    "story_image": "images/story/mix/m36_story.png",
+    "feed_image": "images/feed/mix/m36_1.png"
+  },
+  {
+    "id": "post-37",
+    "date": "2026-11-05T14:00:00.000Z",
+    "category": "mix-fechamento",
+    "feed_caption": "Onde tem gente, tem Seu Zé. 🧡\n\nCondomínios, eletropostos e empresas: um mini market autônomo, 24h e sem dor de cabeça.\n\nObrigado por acompanhar! Quer um Seu Zé no seu espaço? Chama no direct.\n\n#SeuZé #MiniMarket #Condomínio #Eletroposto #Empresas",
+    "story_image": "images/story/mix/m37_story.png",
+    "feed_image": "images/feed/mix/m37_1.png"
   }
 ]
